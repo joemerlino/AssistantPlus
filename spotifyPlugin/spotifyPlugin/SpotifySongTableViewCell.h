@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SpotifySongTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *songTitleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *songDetailLabel;
+@property (unsafe_unretained, nonatomic) IBOutlet UILabel *songTitleLabel;
+@property (unsafe_unretained, nonatomic) IBOutlet UILabel *songDetailLabel;
 
 @end
